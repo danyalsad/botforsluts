@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mconstanza/redditBotTest.git"
+    "url": "git+https://github.com/danyalsad/redditBotHackathon.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mconstanza/redditBotTest/issues"
+    "url": "https://github.com/danyalsad/redditBotTest/issues"
   },
-  "homepage": "https://github.com/mconstanza/redditBotTest#readme",
+  "homepage": "https://github.com/danyalsad/redditBotTest#readme",
   "dependencies": {
     "snoowrap": "^1.12.0"
   }
