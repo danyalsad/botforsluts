@@ -23,7 +23,7 @@ const reddit = new snoowrap({
 // Our main function that will call the Reddit api for new stories in a specific subreddit
 // if you aren't familiar with ES6 syntax, the sub will default to /r/aww, the number of stories to 10.
 // The arrows are one way of writing functions in ES6.
-getNewStories = (sub='CheatingSluts', num=1) => {
+getNewStories = (sub='miakhalifapics', num=1) => {
     reddit.getSubreddit(sub).getHot()
     .then(function(listing) {
         for (var i = 0; i < num ; i++) {
@@ -42,7 +42,7 @@ getNewStories = (sub='CheatingSluts', num=1) => {
 postNewStory = (post) => {
   console.log(post)
   // creating a post object to submit to Reddit
-    reddit.getSubreddit('slutsatcollege').submitLink(
+    reddit.getSubreddit('Mia_KhalifaX').submitLink(
       {
         title: post.title,
         url: post.url,
@@ -57,14 +57,10 @@ postNewStory = (post) => {
 
 // This function runs getNewStories in several diffrent subreddits and posts them in our subreddit
 getDevStories = () => {
-  getNewStories('collegesluts', 1);
-  getNewStories('sluts', 1);
-  getNewStories('SluttySelfies', 1);
-  getNewStories('tinder_sluts', 1);
-  getNewStories('fuckyeahsexyteens', 1);
-  getNewStories('barelylegalteens', 1);
-  getNewStories('LegalTeens', 1);
-  getNewStories('RealGirls', 1);
+  getNewStories('Miakhalifa', 1);
+  getNewStories('khalifa', 1);
+  getNewStories('miakhalifapics', 1);
+ 
 }
 
 
