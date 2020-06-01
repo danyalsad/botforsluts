@@ -42,7 +42,7 @@ getNewStories = (sub='miakhalifapics', num=1) => {
 postNewStory = (post) => {
   console.log(post)
   // creating a post object to submit to Reddit
-    reddit.getSubreddit('Mia_KhalifaX').submitLink(
+    reddit.getSubreddit('Pornstar_Hq').submitLink(
       {
         title: post.title,
         url: post.url,
@@ -57,7 +57,14 @@ postNewStory = (post) => {
 
 // This function runs getNewStories in several diffrent subreddits and posts them in our subreddit
 getDevStories = () => {
-  getNewStories('Miakhalifa', 10);
+  getNewStories('Miakhalifa', 1);
+  getNewStories('janicegriffith', 1);
+  getNewStories('PornStarletHQ', 1);
+  getNewStories('rileyreid', 1);
+  getNewStories('mayabijou', 1);
+  getNewStories('giannamichaels', 1);
+  getNewStories('LarkinLoveXXX', 1);
+  getNewStories('AngelaWhite', 10);
  
  
 }
